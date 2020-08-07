@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <style>
+      body { background-color: #000; font-family: Arial; }
+      .letter { background-color: #fff; margin: 60px; padding: 10px; }
+    </style>
+  </head>
+  <body>
+    <div class="letter">
+      <p>To: {{ to }}</p>
+      <p>Subject: {{ subject }}</p>
+
+      <div style="margin-top: 60px;">
+        {{ email }}
+      </div>
+    </div>
+  </body>
+</html>
